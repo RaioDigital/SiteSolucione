@@ -1,0 +1,2 @@
+O script de formulário de contato PHP/AJAX totalmente funcional está disponível na versão pro do modelo.
+Você pode comprá-lo em: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
