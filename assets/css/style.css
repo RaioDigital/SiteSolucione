@@ -144,6 +144,9 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+
+
 .header {
   transition: all 0.5s;
   z-index: 997;
@@ -560,6 +563,48 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
+.counts {
+  padding: 70px 0 60px;
+}
+
+.features{
+  background-color: #f1f1f1;
+}
+
+.features .count-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  background: #00B8EC;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.features .count-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #006097;
+}
+.features .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+}
+.features.count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+
+.features-text{
+  text-align: justify;
+}
+
 .features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -1929,7 +1974,7 @@ section {
   background: #5969f3;
 }
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white url(../img/backgrond-solucione.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -1948,7 +1993,7 @@ section {
   margin-bottom: 15px;
 }
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
+  max-height: 200px;
   margin-right: 6px;
 }
 .footer .footer-top .footer-info .logo span {
