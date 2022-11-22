@@ -2088,7 +2088,7 @@ section {
 
 
 
-/*----------------SLIDES-----------------------*/
+/*----------------SLIDES-----------*/
 
 .container-slide{
   margin: 0;
@@ -2102,12 +2102,12 @@ section {
 
 .slider {
   margin: 0 auto;
-  width: 800px;
+  width: 400px;
   height: 400px;
  overflow: hidden;
 }
 
-.slides{
+.slides{  
   width: 400%;
   height: 400px;
   display: flex;  
@@ -2120,10 +2120,11 @@ section {
 .slide {
   width: 25%;
   position: relative;
-}
+  transition: 2s;  
+  }
 
 .slide img {
-  width: 800px;
+  width: 400px;
 }
 
 /*----- MANUAL -----*/
@@ -2137,7 +2138,7 @@ section {
 }
 
 .manual-btn {
-  border: 2px solid #006097;
+  border: 2px solid transparent;
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
@@ -2146,11 +2147,11 @@ section {
 }
 
 .manual-btn:not(:last-child){
-  margin-right: 40px #006097;
+  margin-right: 40px transparent;
 }
 
 .manual-btn:hover{
-  background-color: #006097;
+  background-color: transparent;
 }
 
 #radio1:checked ~ .first {
@@ -2169,15 +2170,15 @@ section {
   margin-left: -75%;
 }
 
-/* ------ AUTO ------*/
+/* ------------- AUTO -----------*/
 
-.navigator-auto div{
-  border: 2px solid #20a6ff;  
+.navigator-auto div {
+  border: 2px solid transparent;  
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-  transition: 1s;
+  transition:  1s;
 }
 
 .navigator-auto {
@@ -2185,26 +2186,25 @@ section {
   width: 800px;
   margin-top: 360px;
   display: flex;
-  justify-content: center;  
+  justify-content: center; 
 }
 
 .navigator-auto div:not(:last-child){
-  margin-right: 10px;
+  margin-right: 5px;  
 }
 
-#radio1:checked ~ .navigator-auto .auto-btn1 {
-  background-color: #ccc;
+#radio1:checked ~ .navigator-auto .auto-btn1 {  
+  background-color: transparent;
 }
 
 #radio2:checked ~ .navigator-auto .auto-btn2 {
-  background-color: #ccc;
+  background-color: transparent;
 }
 
 #radio3:checked ~ .navigator-auto .auto-btn3 {
-  background-color: #ccc;
+  background-color: transparent;
 }
 
 #radio4:checked ~ .navigator-auto .auto-btn4 {
-  background-color: #ccc;
+  background-color: transparent;
 }
-

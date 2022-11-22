@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<title>Instagram Feed</title>
+</head>
+
+<body>
+	<div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
+
+	<script type="text/javascript">
+		var feed = new Instafeed({
+			accessToken: '[instagram-feed feed=1]',
+			limit: 8,
+			template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+
+			after: function(){
+
+				$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:false,
+					responsiveClass:true,
+					responsive:{
+						0:{
+							items:1
+						},
+						600:{
+							items:3
+						},
+						1000:{
+							items:5,							
+							loop:false
+						}
+					}
+				});
+			}
+		});
+		feed.run();
+	</script>
+
+</body>
+</html>
