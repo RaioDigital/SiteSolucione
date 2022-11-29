@@ -420,7 +420,28 @@ section {
 .hero-irrigacao {
   width: 100%;
   height: 50vh;
-  background: url(../img/irrigacao/irrigacao-topo.jpg) top center no-repeat;
+  background: url(../img/irrigacao/irrigacao-topo1.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.hero-jardinagem {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/jardinagem/jardinagem-topo1.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.hero-piscinas {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/piscinas/piscinas-topo1.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.hero-piscinas {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/quem_somos/quemsomos-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
