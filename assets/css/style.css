@@ -104,14 +104,15 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 100px;
+  bottom: 35px;
   z-index: 99999;
   background: #006097;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+  
 }
 .back-to-top i {
   font-size: 24px;
@@ -119,7 +120,7 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  background: #00B8EC;
   color: #fff;
 }
 .back-to-top.active {
@@ -360,6 +361,16 @@ section {
   display: block;
 }
 
+.tel_contato{
+  background-color: #00B8EC;
+  padding: 20px;  
+  margin: 20px 80px 20px 80px;
+  color:#fff;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
 /*------- # Hero Section ---------------*/
 .hero {
   width: 100%;
@@ -438,10 +449,17 @@ section {
   background-size: cover;
 }
 
-.hero-piscinas {
+.hero-quemsomos {
   width: 100%;
   height: 50vh;
-  background: url(../img/quem_somos/quemsomos-topo.jpg) top center no-repeat;
+  background: url(../img/quem_somos/quemsomos-topo1.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.hero-faleconosco {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/faleconosco/faleconosco-topo1.jpg) top center no-repeat;
   background-size: cover;
 }
 
