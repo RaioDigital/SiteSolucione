@@ -1040,6 +1040,26 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.button-faleconosco{
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #00B8EC;
+}
+
+.button-faleconosco a{
+  color: #fff;
+  font-weight: bold;
+}
+
+.button-faleconosco a:hover {
+  color: #012970;
+  transition: 3s;
+}
+
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -1166,7 +1186,7 @@ section {
   line-height: 0;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #012970;
 }
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);

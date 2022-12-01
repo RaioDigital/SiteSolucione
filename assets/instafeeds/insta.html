@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<div id="instafeed" class="owl-carousel owl-loaded owl-drag">
+
+
+</div>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: 'IGQVJWdkJLXzNkSkxhdEM2emYyWFZAveXhIVGllYU9VTXhmMmIyX1l4R0pTLWJMUk5lMDZAIYVY1cEk4VGVxbWJiY0UxNWJBTmZAfV29vNTN3dDJPdFNmYlczaUdFYnJCNGtkaEZA5SXJn',
+      limit: 20,
+      template:'<div class="item"> <a href="{{link}}" target="_blank"> <img title="{{caption}}" src="{{image}}"/> </a> </div>',
+
+       after: function(){            
+            $(".owl-carousel").owlCarousel();
+            
+
+        }
+
+    });
+
+    feed.run();
+
+   
+
+</script>
