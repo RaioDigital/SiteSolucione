@@ -155,7 +155,7 @@ section {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 90px;
+  max-height: 45px;
   margin-right: 6px;
 }
 .header .logo span {
@@ -2124,8 +2124,9 @@ section {
 
 .footer .footer-top .social-links a {
   font-size: 20px;
+  padding-left: 15%; /*incluso*/
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: #006097;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
