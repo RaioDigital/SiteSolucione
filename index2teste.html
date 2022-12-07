@@ -41,7 +41,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           
           <li><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
 
@@ -63,12 +63,13 @@
           <!-- <li><a href="#">Blog</a></li> -->
           
           <!-- REDES SOCIAIS -->
-          <ul class="social-links mt-6">
-            <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
-            <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook" target="_blank"><i class="bi bi-facebook" style="font-size:25px"></i></a> 
-            <a href="https://www.instagram.com/solucioneaqui/" class="instagram" target="_blank"><i class="bi bi-instagram" style="font-size:25px"></i></a>   
-          </ul> 
-          <!-- FIM REDES SOCIAIS -->                   
+            <ul class="social-links mt-6">
+              <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
+              <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook" target="_blank"><i class="bi bi-facebook" style="font-size:25px"></i></a> 
+              <a href="https://www.instagram.com/solucioneaqui/" class="instagram" target="_blank"><i class="bi bi-instagram" style="font-size:25px"></i></a>   
+            </ul> 
+            <!-- FIM REDES SOCIAIS -->   
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -77,29 +78,75 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero-piscinas d-flex align-items-center">
+  <section id="hero" class="hero d-flex align-items-center">
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">          
-          <h1 data-aos="fade-up " id="titulo-topo" >            
-            Produtos para Piscinas
-          </h1>      
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h3>Sob medida para você</h3>
+          <h1 data-aos="fade-up">            
+            As melhores marcas
+            do mercado com um
+            atendimento de
+            excelência</h1>      
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-            <!--
-              <span id="text-button">A solucione está aqui!</span>
-              <i class="bi bi-arrow-right"></i>
-            -->
+                <span id="text-button">A solucione está aqui!</span>
+                <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
 
+        <!-- SLIDES PRODUTOS TOPO -->
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <!-- <img src="assets/img/painel_solar_frente.png" class="img-fluid" alt="">  -->
+          <!-- <img src="assets/img/slide-topo/painel_solar_frente.png" class="img-fluid" alt="">  -->
+          <div class="slider">
+            <div class="slides">
+                <!-- Radio Buttons -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">            
+                <!-- Fim Radio Buttons -->
+    
+                <!-- Slide imagens -->
+                <div class="slide first">
+                    <img src="assets/img/slide-topo/painel_solar_frente.png">
+                </div>
+    
+                <div class="slide">
+                    <img src="assets/img/slide-topo/agricola.png" alt="imagem 2">
+                </div>
+    
+                <div class="slide">
+                    <img src="assets/img/slide-topo/ferramenta.png" alt="imagem 3">
+                </div>
+    
+                <div class="slide">
+                    <img src="assets/img/slide-topo/hidraulico.png" alt="imagem 4">
+                </div>
+                <!--Fim Slide imagens -->
+    
+                <!-- Navigator auto-->
+                <div class="navigator-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>    
+            </div>    
+            <div class="manual-navigator">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>    
         </div>
+        </div>
+        <!-- FIM SLIDES PRODUTOS TOPO -->
+      </div>
     </div>
 
   </section><!-- End Hero -->
@@ -108,6 +155,7 @@
   <section id="clients" class="clients">
 
     <div class="container" data-aos="fade-up">
+
       <header class="section-header">
         <!--
           <h2>Solucione aqui</h2>
@@ -132,120 +180,106 @@
 
   </section><!-- End Clients Section -->
 
+  <main id="main">
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
 
+      <div class="container" data-aos="fade-up">
 
+        <header class="section-header">
+          <!--<h2>Features</h2>-->
+          <p>Procurando soluções para casa, indústria e campo em um só lugar?</p>
+        </header>
 
-
-  <!-- Produtos Agrícolas -->
-  <section id="portfolio" class="portfolio">
-
-    <div class="container" data-aos="fade-up">
-
-      <header class="section-header">
-        <h2>Solucioneaqui</h2>
-        
-        <br>
-        <div>
-          <strong>Quem tem piscina em casa deve cuidar dela durante o ano inteiro</strong> para mante-la sempre limpa e com a água saudável. <br>
-
-          A periodicidade ideal para limpar a piscina vai depender de uma série de fatores externos, como o fluxo de uso, o tamanho, o ambiente em que está instalada, bem como a disponibilidade dos produtos de limpeza de piscina, etc. <br>
-          
-          Porém, de uma forma geral, <strong>os cuidados essenciais com a água da piscina podem ser separados por dia, por semana e por mês.</strong><br>
-        </div>
-      </header>
-
-      <!--SEÇÃO DE PRODUTOS -->
-
-      <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="col-lg-12 d-flex justify-content-center">
-          <button class="button-faleconosco">
-            <a href="faleconosco.html">Clique aqui para falar com a nossa equipe</a>
-          </button>          
-        </div>
-      </div>
-
-      <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-         <!--Produto 1-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas1.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas1.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Produto 2-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas2.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas2.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Produto 3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-        <!--Produto 4-->
-        </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Produto 5-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">              
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Produto 6-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/piscinas/piscinas10.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="assets/img/piscinas/piscinas10.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Piscinas"><i class="bi bi-plus"></i></a>                
-              </div>
-            </div>
-          </div>
-        </div> 
-
-        <!-- FIM SEÇÃO DE PRODUTOS -->
-
-      </div>
-
-    </div>
-
-  </section><!-- End Portfolio Section --> 
+        <div class="row">
+          <div class="col-lg-6">
+            <p>A <strong>Solucione</strong> é um novo e moderno conceito planejado para atender consumidores exigentes e que buscam um amplo leque de produtos para suas necessidades.</p>
             
+              <div class="count-box">                
+                <!--<i class="bi bi-emoji-smile"></i>-->
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="48000" data-purecounter-duration="1" class="purecounter"></span>
+                  <h5 style="color:#fff ;">Clientes Satisfeitos</h5>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+
+
+        <div class="row align-self-center gy-4">
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>25 anos de sólida experiência</h3>
+                </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Variado mix de produtos</h3>
+                </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Atendimento qualificado</h3>
+                </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Sólidas parcerias</h3>
+                </div>
+          </div>            
+        </div>
+
+    </div> 
+  </section><!-- End Features Section -->
+        
+   
+
+        <!-- Feature Tabs -->
+        
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3></h3>
+              <h2>Larga experiência comercial</h2>
+              <p>
+                A Solucione inova para acompanhar o crescimento e a modernização do Eusébio e de toda a região.
+              </p>
+
+                <li>Atendimento qualificado que faz toda a diferença.</li>
+                <li>A facilidade de poder encontrar tudo em um só lugar.</li>
+                <li>Atendimento orientado para resolver seu problema.</li>
+              
+              <p>
+                Equipamentos para jardim, casa, piscina, indústria, campo, ferramentas, energia solar e irrigação de marcas líderes de mercado é com quem tem qualidade e 25 anos de expertise. Solucione, inovação que faz a diferença!
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/gif/produtos.gif" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
 
@@ -276,6 +310,30 @@
 
     </section><!-- End Clients Section -->
 
+   
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2></h2>
+          <p>Redes Sociais</p>
+        </header>
+
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            
+            
+
+          </div>
+        </div>
+
+      </div>
+
+    </section> <!-- End Contact Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -288,7 +346,7 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/LOGO_SOLUCIONE_uso-principal-1-1536x1007.png" alt="solucioneaqui" >
             </a>
-            <p>Produtos e serviços para jardinagem, ferramentas, energia solar, agricultura e piscina com uma equipe de com larga experiência no mercado..</p>
+            <p>Produtos e serviços para jardinagem, ferramentas, energia solar, agricultura e piscina com uma equipe de com larga experiência no mercado.</p>
             <!-- REDES SOCIAIS -->
             <div class="social-links mt-3">
               <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
@@ -326,7 +384,6 @@
             </ul>
           </div>
 
-      
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Localização</h4>
             <p>Avenida Eusébio de Queiroz,1720<br>
@@ -341,7 +398,7 @@
             <p>Segunda a Sexta - 7:30 as 18:00 <br>
             Sabádo - 7:30 as 16:00</p>
           </div>
-
+          
         </div>
       </div>
     </div>
@@ -359,11 +416,14 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-   <!--LOGO WHATSAPP-->  
-   <link rel="stylesheet" href="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/css/whatsapp-button.css?leowp=dev"> <div id="leowp-whatsapp-button"><a target="_blank" href="https://api.whatsapp.com/send?phone=5585994128131"> <div class="rwb-tooltip">Solucione pelo Whatsapp</div><img src="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/images/whatsapp-icon.svg"> </a><div class="linkdosite"><span></span> <a href="https://google.com.br" target="_blank"></a></div></div>
-   <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>   
-   <!-- FIM LOGO WHATSAPP-->
-   
+  <!--LOGO WHATSAPP-->
+  
+  <link rel="stylesheet" href="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/css/whatsapp-button.css?leowp=dev"> <div id="leowp-whatsapp-button"><a target="_blank" href="https://api.whatsapp.com/send?phone=5585994128131"> <div class="rwb-tooltip">Solucione pelo Whatsapp</div><img src="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/images/whatsapp-icon.svg"> </a><div class="linkdosite"><span></span> <a href="https://google.com.br" target="_blank"></a></div></div>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> 
+  
+  <!-- FIM LOGO WHATSAPP-->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -375,6 +435,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/slide.js"></script>
 
 </body>
 
