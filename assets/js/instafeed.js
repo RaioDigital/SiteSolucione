@@ -1,7 +1,7 @@
 var feed = new Instafeed({
-    accessToken: /*'IGQVJXN3hzSEpBaldmUllxM3pZAQUZAkQVdLbUkwZAkdFalpSLTVJVG53eWhRMEJyc2prcm12YzRsaUg5Q21LVkk1dGprcHpCMmdPOVdnZAFJDQ1ZAKNkw1TEdWOEphaFE0aDVCcnh0Q050d0tJNmJXZAmdicAZDZD',*/
+    accessToken: '',
     limit: 10,
-    template:'<div class="item"><a href="{{link}}" target="_blank"><img class="img-fluid" title="{{caption}}" src="{{image}}"/></a></div>',
+    template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}"/></a></div>',
 
     after: function(){
         $('.owl-carousel').owlCarousel({ 
