@@ -1,12 +1,12 @@
 $(function (){
-     const token = "IGQVJXcHdVS1RwdTk2Q0NfM2htWVNjeUpfb2RJVFBYRHlvZAVF2dllyVFRyTlZAyRHNKbjRxLUMzNG9leWZAZAeHlJRzRjN210Ym5DakprMGxsVGtZAelg2Y0kwSUJMcnNYLVNIMGY5Y1N2aGNOQ3VJbEE3SgZDZD"
+     const token = "IGQVJXN3hzSEpBaldmUllxM3pZAQUZAkQVdLbUkwZAkdFalpSLTVJVG53eWhRMEJyc2prcm12YzRsaUg5Q21LVkk1dGprcHpCMmdPOVdnZAFJDQ1ZAKNkw1TEdWOEphaFE0aDVCcnh0Q050d0tJNmJXZAmdicAZDZD"
 
      const url = "https://graph.instagram.com/me/media?access_token="+token+"&fields=media_url,media_type,caption,permalink"
 
      $.get(url).then(function(response){
           //console.log('retorno: ', response.data);
           let dadosJson = response.data
-          let conteudo = '<div class="row" style="padding-left:5px">';
+          let conteudo = '<div class="row" style="padding-left:5px ">';
 
           for (let p=0; p < dadosJson.length; p++) {
                let feed = dadosJson[p];
