@@ -37,8 +37,12 @@
   <!-- Whatsapp CSS -->
   <link rel="stylesheet" href="assets/css/whatsapp.css">
 
+  
+
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -53,11 +57,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li id="nav-link"><a class="nav-link scrollto active" href="#hero">Home</a></li>
           
-          <li><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
+          <li id="nav-link"><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
 
-          <li class="dropdown"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown" id="nav-link"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="agricola.html">Agricolas</a></li>
               <li><a href="casa.html">Casa</a></li>
@@ -71,11 +75,11 @@
               <li><a href="piscinas.html">Piscinas</a></li>
             </ul>
           </li>
-          <li><a href="faleconosco.html">Fale Conosco</a></li>
+          <li id="nav-link"><a href="faleconosco.html">Fale Conosco</a></li>
           <!-- <li><a href="#">Blog</a></li> -->
           
           <!-- REDES SOCIAIS -->
-            <ul class="social-links mt-6">
+            <ul id="nav-link" class="social-links mt-6">
               <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
               <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook" target="_blank"><i class="bi bi-facebook" style="font-size:25px"></i></a> 
               <a href="https://www.instagram.com/solucioneaqui/" class="instagram" target="_blank"><i class="bi bi-instagram" style="font-size:25px"></i></a>   
@@ -94,9 +98,10 @@
 
     <div class="container">
       <div class="row">
+        <!--
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h3>Sob medida para você</h3>
-          <h1 data-aos="fade-up">            
+          <h3 d="nav-link">Sob medida para você</h3>
+          <h1 id="nav-link" data-aos="fade-up">            
             As melhores marcas
             do mercado com um
             atendimento de
@@ -109,21 +114,21 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> --> 
 
-        <!-- SLIDES PRODUTOS TOPO -->
+        <!-- SLIDES PRODUTOS TOPO 
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <!-- <img src="assets/img/slide-topo/painel_solar_frente.png" class="img-fluid" alt="">  -->
+           <img src="assets/img/slide-topo/painel_solar_frente.png" class="img-fluid" alt="">  
           <div class="slider">
             <div class="slides">
-                <!-- Radio Buttons -->
+                 Radio Buttons 
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
                 <input type="radio" name="radio-btn" id="radio4">            
-                <!-- Fim Radio Buttons -->
+                 Fim Radio Buttons 
     
-                <!-- Slide imagens -->
+                 Slide imagens 
                 <div class="slide first">
                     <img src="assets/img/slide-topo/painel_solar_frente.png">
                 </div>
@@ -139,9 +144,9 @@
                 <div class="slide">
                     <img src="assets/img/slide-topo/serraeletrica-stihl.png" alt="imagem 4">
                 </div>
-                <!--Fim Slide imagens -->
+                Fim Slide imagens 
     
-                <!-- Navigator auto-->
+                 Navigator auto
                 <div class="navigator-auto">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
@@ -157,7 +162,7 @@
             </div>    
         </div>
         </div>
-        <!-- FIM SLIDES PRODUTOS TOPO -->
+         FIM SLIDES PRODUTOS TOPO -->
       </div>
     </div>
 
@@ -177,14 +182,14 @@
 
       <div class="clients-slider swiper">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><img src="assets/img/clients/trator.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/casa.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/energia_solar.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/ferremantas.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/industrias.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/irrigacao.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/irrigacao2.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/piscina.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><a href="agricola.html"><img src="assets/img/clients/trator.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="casa.html"><img src="assets/img/clients/casa.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="energiasolar.html"><img src="assets/img/clients/energia_solar.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="ferramentas.html"><img src="assets/img/clients/ferremantas.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="industrial.html"><img src="assets/img/clients/industrias.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="irrigacao.html"><img src="assets/img/clients/irrigacao.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="irrigacao.html"><img src="assets/img/clients/irrigacao2.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><a href="piscinas.html"><img src="assets/img/clients/piscina.png" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

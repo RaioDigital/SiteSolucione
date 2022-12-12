@@ -25,21 +25,20 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!--Instafeed CSS e JS-->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="assets/css/instafeed.css">
+    <!--Instafeed CSS e JS-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/instafeed.css">
+  
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>  
+    <script type="text/javascript" src="assets/js/instafeed.min.js"></script>
 
-  <script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-
-	<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
-
+  <!-- Whatsapp CSS -->
   <link rel="stylesheet" href="assets/css/whatsapp.css">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -54,11 +53,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li id="nav-link"><a class="nav-link scrollto active" href="#hero">Home</a></li>
           
-          <li><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
+          <li id="nav-link"><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
 
-          <li class="dropdown"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown" id="nav-link"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="agricola.html">Agricolas</a></li>
               <li><a href="casa.html">Casa</a></li>
@@ -72,11 +71,11 @@
               <li><a href="piscinas.html">Piscinas</a></li>
             </ul>
           </li>
-          <li><a href="faleconosco.html">Fale Conosco</a></li>
+          <li id="nav-link"><a href="faleconosco.html">Fale Conosco</a></li>
           <!-- <li><a href="#">Blog</a></li> -->
           
           <!-- REDES SOCIAIS -->
-            <ul class="social-links mt-6">
+            <ul id="nav-link" class="social-links mt-6">
               <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
               <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook" target="_blank"><i class="bi bi-facebook" style="font-size:25px"></i></a> 
               <a href="https://www.instagram.com/solucioneaqui/" class="instagram" target="_blank"><i class="bi bi-instagram" style="font-size:25px"></i></a>   
@@ -90,79 +89,32 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+  
+  <!-- ======= SLIDES  ======= -->
+  <section id="slide">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h3>Sob medida para você</h3>
-          <h1 data-aos="fade-up">            
-            As melhores marcas
-            do mercado com um
-            atendimento de
-            excelência</h1>      
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span id="text-button">A solucione está aqui!</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- ======= Trilha  ======= -->
+        <div class="carousel-item active">
+          <a href="#" target="_blank"><img src="assets/img/home/home-topo.png" class="img-fluid" alt="Imagem responsiva"></a>
         </div>
 
-        <!-- SLIDES PRODUTOS TOPO -->
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <!-- <img src="assets/img/slide-topo/painel_solar_frente.png" class="img-fluid" alt="">  -->
-          <div class="slider">
-            <div class="slides">
-                <!-- Radio Buttons -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">            
-                <!-- Fim Radio Buttons -->
-    
-                <!-- Slide imagens -->
-                <div class="slide first">
-                    <img src="assets/img/slide-topo/painel_solar_frente.png">
-                </div>
-    
-                <div class="slide">
-                    <img src="assets/img/slide-topo/agricola.png" alt="imagem 2">
-                </div>
-    
-                <div class="slide">
-                    <img src="assets/img/slide-topo/ferramenta.png" alt="imagem 3">
-                </div>
-    
-                <div class="slide">
-                    <img src="assets/img/slide-topo/hidraulico.png" alt="imagem 4">
-                </div>
-                <!--Fim Slide imagens -->
-    
-                <!-- Navigator auto-->
-                <div class="navigator-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>    
-            </div>    
-            <div class="manual-navigator">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>    
-        </div>
-        </div>
-        <!-- FIM SLIDES PRODUTOS TOPO -->
+        
       </div>
-    </div>
 
-  </section><!-- End Hero -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <!-- ======= END SLIDES  ======= -->
 
   <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
@@ -178,14 +130,14 @@
 
       <div class="clients-slider swiper">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><img src="assets/img/clients/trator.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/casa.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/energia_solar.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/ferremantas.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/industrias.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/irrigacao.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/irrigacao2.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/clients/piscina.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><a href="agricola.html"><img src="assets/img/clients/trator.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="casa.html"><img src="assets/img/clients/casa.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="energiasolar.html"><img src="assets/img/clients/energia_solar.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="ferramentas.html"><img src="assets/img/clients/ferremantas.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="industrial.html"><img src="assets/img/clients/industrias.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="irrigacao.html"><img src="assets/img/clients/irrigacao.png" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="irrigacao.html"><img src="assets/img/clients/irrigacao2.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><a href="piscinas.html"><img src="assets/img/clients/piscina.png" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -292,6 +244,22 @@
       </div>
 
     </section><!-- End About Section -->
+    
+    <!-- ======= Redes Sociais ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">          
+          <p>Redes Sociais</p>          
+        </header>
+
+        <div>
+          <div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>        
+        </div>        
+      </div>
+
+    </section> <!-- Redes Sociais -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -322,28 +290,7 @@
       </div>
 
     </section><!-- End Clients Section -->
-
-   
-
-    <!-- ======= Redes Sociais ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">          
-          <p>Redes Sociais</p>          
-        </header>
-
-        <div>
-
-          <div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
-        
-        </div>
-        
-      </div>
-
-    </section> <!-- Redes Sociais -->
-
+    
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -427,10 +374,12 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!--LOGO WHATSAPP-->
+  
   <link rel="stylesheet" href="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/css/whatsapp-button.css?leowp=dev"> <div id="leowp-whatsapp-button"><a target="_blank" href="https://api.whatsapp.com/send?phone=5585994128131"> <div class="rwb-tooltip">Solucione pelo Whatsapp</div><img src="https://lupadigital.info/wp-content/plugins/leowp-gerador-botao-whatsapp/images/whatsapp-icon.svg"> </a><div class="linkdosite"><span></span> <a href="https://google.com.br" target="_blank"></a></div></div>
 
-  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>  
-   <!--FIM LOGO WHATSAPP-->
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> 
+  
+  <!-- FIM LOGO WHATSAPP-->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>

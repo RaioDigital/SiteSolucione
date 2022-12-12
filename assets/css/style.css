@@ -138,12 +138,11 @@ section {
 }
 /*---------- # Header ---------------------------*/
 
-
-
 .header {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background-color: #fff; /* fixado a cor */
 }
 
 .header.header-scrolled {
@@ -151,26 +150,35 @@ section {
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
+
 .header .logo {
   line-height: 0;
 }
+
 .header .logo img {
   max-height: 45px;
   margin-right: 6px;
+  
 }
+
 .header .logo span {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
   font-family: "Nunito", sans-serif;
-  margin-top: 3px;
+  margin-top: 3px;  
 }
 
 /*----------- # Navigation Menu -------------------*/
 /**
 * Desktop Navigation 
 */
+
+#nav-link{
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
 .navbar {
   padding: 0;
 }
@@ -181,9 +189,11 @@ section {
   list-style: none;
   align-items: center;
 }
+
 .navbar li {
   position: relative;
 }
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
@@ -196,6 +206,7 @@ section {
   white-space: nowrap;
   transition: 0.3s;
 }
+
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
@@ -204,6 +215,7 @@ section {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #006097;
 }
+
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #006097;
   padding: 8px 20px;
@@ -211,6 +223,7 @@ section {
   border-radius: 4px;
   color: #fff;
 }
+
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
   background: #5969f3;
@@ -239,6 +252,7 @@ section {
   text-transform: none;
   font-weight: 600;
 }
+
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
@@ -255,6 +269,7 @@ section {
   left: calc(100% - 30px);
   visibility: hidden;
 }
+
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
@@ -372,10 +387,11 @@ section {
 }
 
 /*------- # Hero Section ---------------*/
+
 .hero {
   width: 100%;
-  height: 100vh;
-  background: url(../img/banner-principal-solucione-00.png) top center no-repeat;
+  height: 60vh;
+  background: url(../img/home/home-topo.png) top center no-repeat;
   background-size: cover;
 }
 
