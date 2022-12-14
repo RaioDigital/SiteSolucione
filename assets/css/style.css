@@ -128,6 +128,60 @@ section {
   opacity: 1;
 }
 
+/* # Top Bar ------------------------------------*//*
+@media only screen and (max-width: 1000px) {    
+  #topbar{
+    font-size: 1em; 
+  }
+}*/
+
+#topbar {
+  max-width: 100%;
+  background: #006097;
+  height: 40px;
+  font-size: 11px; 
+  transition: all 0.5s;
+  color: #fff;
+  padding: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  align-items: center;
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+  color: white;
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -375,6 +429,8 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
+
 
 .tel_contato{
   background-color: #00B8EC;
@@ -1542,6 +1598,11 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.swiper-slide{
+  max-width: 80%;
+  padding: 5px;
+}
+
 .clients .clients-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
