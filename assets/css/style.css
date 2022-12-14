@@ -398,84 +398,84 @@ section {
 .hero-agricola {
   width: 100%;
   height: 50vh;
-  background: url(../img/agricolas/agricola-topo.png) top center no-repeat;
-  background-size: cover;
+  background: url(../img/agricolas/agricola-topo.jpg) top center no-repeat;
+  background-size: cover;  
 }
 
 .hero-casa {
   width: 100%;
   height: 50vh;
-  background: url(../img/casa/casa-topo.png) top center no-repeat;
+  background: url(../img/casa/casa-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-energiasolar {
   width: 100%;
   height: 50vh;
-  background: url(../img/energia-solar/topo-energia-solar.jpg) top center no-repeat;
+  background: url(../img/energia-solar/topo-energiasolar1.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-ferramentas {
   width: 100%;
   height: 50vh;
-  background: url(../img/ferramentas/ferramentas-topo1.jpg) top center no-repeat;
+  background: url(../img/ferramentas/ferramentas-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-hidraulico {
   width: 100%;
   height: 50vh;
-  background: url(../img/hidraulico/topo-hidraulico1.jpg) top center no-repeat;
+  background: url(../img/hidraulico/topo-hidraulico.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-incendio {
   width: 100%;
   height: 50vh;
-  background: url(../img/incendio/incendio-topo1.jpg) top center no-repeat;
+  background: url(../img/incendio/incendio-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-industrial {
   width: 100%;
   height: 50vh;
-  background: url(../img/industrial/industrial-topo1.jpg) top center no-repeat;
+  background: url(../img/industrial/industrial-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-irrigacao {
   width: 100%;
   height: 50vh;
-  background: url(../img/irrigacao/irrigacao-topo1.jpg) top center no-repeat;
+  background: url(../img/irrigacao/irrigacao-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-jardinagem {
   width: 100%;
   height: 50vh;
-  background: url(../img/jardinagem/jardinagem-topo1.jpg) top center no-repeat;
+  background: url(../img/jardinagem/jardinagem-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-piscinas {
   width: 100%;
   height: 50vh;
-  background: url(../img/piscinas/piscinas-topo1.jpg) top center no-repeat;
+  background: url(../img/piscinas/piscinas-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-quemsomos {
   width: 100%;
   height: 50vh;
-  background: url(../img/quem_somos/quemsomos-topo1.jpg) top center no-repeat;
+  background: url(../img/quem_somos/quemsomos-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-faleconosco {
   width: 100%;
   height: 50vh;
-  background: url(../img/faleconosco/faleconosco-topo1.jpg) top center no-repeat;
+  background: url(../img/faleconosco/faleconosco-topo2.jpg) top center no-repeat;
   background-size: cover;
 }
 
@@ -486,7 +486,7 @@ section {
   background-size: cover;
 }
 
-/*-------- SLIDE TOPO --------*/
+/*-------- SLIDE TOPO ------------------------------------------*/
 
 #slider{
   width: 100%;
@@ -514,24 +514,73 @@ section {
   opacity: 1;  
 }
 
-#frases{
-  opacity: 0;
+/*legendas----------------------------------------------------------*/
 
-  position: absolute;
-  
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  transition: opacity 800ms;
-    
+.slogan{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    text-align: left;
+    top: 5%;   
 }
 
-/*Fim slide topo*/
+.btn-topo{
+  max-width: 100%;
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration:none;
+    background-color: #006097;
+}
+
+.text{
+    max-width: 100%;
+    font-size: 20px;
+    color: #fff; 
+    padding-left: 50px;    
+}
+
+.sub-text{
+    max-width: 100%;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 5px;
+    padding-left: 50px; 
+    text-shadow: -1px 0 #00B8EC, 0 1px #00B8EC, 1px 0 #00B8EC, 0 -1px #00B8EC;
+}
+/*
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+    #fadeIn {
+        -webkit-animation: fadeIn 3s ease-in-out;
+        -moz-animation: fadeIn 3s ease-in-out;
+        -o-animation: fadeIn 3s ease-in-out;
+        animation: fadeIn 3s ease-in-out;
+        }
+
+/*Fim slide topo ------------------------------------------------*/
 
 #titulo-topo{
-  color: #012970;
+  color: #006097;
   font-weight: bold;
+  text-shadow: -1px 0 #fff, 0 3px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
 .hero h1 {
