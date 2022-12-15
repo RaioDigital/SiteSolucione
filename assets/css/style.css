@@ -211,8 +211,7 @@ section {
 
 .header .logo img {
   max-height: 45px;
-  margin-right: 6px;
-  
+  margin-right: 6px;  
 }
 
 .header .logo span {
@@ -229,7 +228,7 @@ section {
 * Desktop Navigation 
 */
 
-#nav-link{
+#nav-link{  
   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
@@ -445,7 +444,7 @@ section {
 /*------- # Hero Section ---------------*/
 
 .hero {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   background: url(../img/home/banner-principal-solucione-00-1024x405.jpg) top center no-repeat;
   background-size: cover;
@@ -453,84 +452,84 @@ section {
 
 .hero-agricola {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/agricolas/agricola-topo.jpg) top center no-repeat;
   background-size: cover;  
 }
 
 .hero-casa {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/casa/casa-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-energiasolar {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/energia-solar/topo-energiasolar1.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-ferramentas {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/ferramentas/ferramentas-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-hidraulico {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/hidraulico/topo-hidraulico.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-incendio {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/incendio/incendio-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-industrial {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/industrial/industrial-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-irrigacao {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/irrigacao/irrigacao-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-jardinagem {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/jardinagem/jardinagem-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-piscinas {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/piscinas/piscinas-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-quemsomos {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/quem_somos/quemsomos-topo.jpg) top center no-repeat;
   background-size: cover;
 }
 
 .hero-faleconosco {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   background: url(../img/faleconosco/faleconosco-topo2.jpg) top center no-repeat;
   background-size: cover;
 }
