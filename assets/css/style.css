@@ -428,16 +428,16 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-/*
+
 .tel_contato{
   background-color: #00B8EC;
-  padding: 10px;    
+  padding: 20px;    
   color:#fff;
   font-size: larger;
   font-weight: bold;
   border-radius: 10px;
 }
-
+/*
 .dadoscom{
   color: #fff;
   font-weight: bold;
@@ -656,6 +656,12 @@ height: 80vh;
         }
 
 /*Fim slide topo ------------------------------------------------*/
+#hero h1{
+ color: #fff;
+ font-weight: 800;
+ font-size: 40px;
+ text-shadow: -1px 0 #006097, 0 2px #006097, 2px 0 #006097, 0 -1px #006097;
+}
 
 .hero h1 {
   margin: 0;
