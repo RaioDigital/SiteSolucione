@@ -428,27 +428,46 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
-
-
+/*
 .tel_contato{
   background-color: #00B8EC;
-  padding: 20px;  
-  margin: 20px 80px 20px 80px;
+  padding: 10px;    
   color:#fff;
   font-size: larger;
   font-weight: bold;
   border-radius: 10px;
 }
 
-/*------- # Hero Section ---------------*/
+.dadoscom{
+  color: #fff;
+  font-weight: bold;
+  background-color: #006097;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#redsoc-topo{
+  color: #fff;
+  font-weight: bold;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#redsoc{
+  padding: 10px;
+}*/
+
+/*------- # Hero Section ---------------
 
 .hero {
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  height: 80%;
   background: url(../img/home/banner-principal-solucione-00-1024x405.jpg) top center no-repeat;
   background-size: cover;  
-}
+} */
 
 .hero-agricola {
   width: 100%;
@@ -541,12 +560,18 @@ section {
   background-size: cover;
 }
 
-/*-------- SLIDE TOPO ------------------------------------------*/
 
+
+/*-------- SLIDE TOPO ------------------------------------------*/
+/*
+width: 100%;
+height: 80vh;
+
+*/
 #slider{
   width: 100%;
-  max-width: auto;
   height: 25vw;
+  max-width: auto;
   max-height: auto;    
   position: relative;  
 }
@@ -631,12 +656,6 @@ section {
         }
 
 /*Fim slide topo ------------------------------------------------*/
-
-#titulo-topo{
-  color: #006097;
-  font-weight: bold;
-  text-shadow: -1px 0 #fff, 0 3px #fff, 1px 0 #fff, 0 -1px #fff;
-}
 
 .hero h1 {
   margin: 0;
