@@ -58,9 +58,12 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+/*------------# Top Bar ---------------------------------*/
+
+
+
+
+/*
 #topbar {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -90,6 +93,7 @@ h6 {
 #topbar .contact-info i a {
   line-height: 0;
   transition: 0.3s;
+
 }
 
 #topbar .contact-info i a:hover {
@@ -112,22 +116,23 @@ h6 {
 #topbar .social-links a:first-child {
   border-left: 0;
 }
-
-/*--------------------------------------------------------------
+*/
+/*----------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
   background: #fff;
-  top: 44px;
+  top: 40px;
 }
-
+/*
 #header.header-scrolled {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   top: 0;
-}
+}*/
 
 #header .logo h1 {
   font-size: 28px;

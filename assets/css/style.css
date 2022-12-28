@@ -138,26 +138,30 @@ section {
 #topbar {
   max-width: 100%;
   background: #006097;
-  height: 40px;
-  font-size: 12px; 
+  height: 0px;
+  font-size: 20px; 
   transition: all 0.5s;
   color: #fff;
   padding: 0;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  margin-bottom: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 5px;    
 }
 
 #topbar .contact-info i {
   font-style: normal;
   color: #fff;
-  font-weight: bold;
 }
 
 #topbar .contact-info i a,
 #topbar .contact-info i span {
-  padding-left: 5px;
+  padding-left: 2px;
+
   color: #fff;
+}
+
+#telefone-top{
+ 
 }
 
 #topbar .contact-info i a {
@@ -171,21 +175,46 @@ section {
   text-decoration: none;
 }
 
+#topbar .social-links{
+  padding-left: 15px;  
+}
+
+#topbar .social-links i{
+  font-size: 20px;
+}
+
 #topbar .social-links a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   align-items: center;
   line-height: 0;
   transition: 0.3s;
-  margin-left: 20px;
+  margin-left: 15px;
+  padding-left: 20;
 }
 
 #topbar .social-links a:hover {
-  color: white;
+  color: #00B8EC;
 }
 
-/*--------------------------------------------------------------
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (max-width: 768px) { 
+  #topbar {
+    text-align: left;
+    max-width: 100%;
+    background: #006097;
+    font-size: 13px; 
+    transition: all 0.5s;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    font-weight: bold;
+  }
+}
+
+/*-----------------------------------------------------
 # Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+-----------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -196,7 +225,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 5px 0;
   background-color: #fff; /* fixado a cor */
 }
 
@@ -224,6 +253,41 @@ section {
   margin-top: 3px;  
 }
 
+/* --------- SOCIAL LINKS ---------*/
+.header-social-links {
+  margin: 0 0 0 30px; 
+  font-size: 25px;
+}
+
+.header-social-links a {
+  color: #013289;
+  padding-left: 20px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+}
+
+.header-social-links a i {
+  line-height: 0;
+}
+
+.header-social-links a:hover {
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .header-social-links {
+    margin: 0 15px 0 0;
+  }
+
+  .header-social-links a i {
+    line-height: 0;
+    font-size: 20px;
+  }
+
+}
+/* --------- FIM SOCIAL LINKS ---------*/
+
 /*----------- # Navigation Menu -------------------*/
 /**
 * Desktop Navigation 
@@ -236,6 +300,7 @@ section {
 .navbar {
   padding: 0;
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -429,38 +494,6 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
-.tel_contato{
-  background-color: #00B8EC;
-  padding: 20px;    
-  color:#fff;
-  font-size: larger;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-/*
-.dadoscom{
-  color: #fff;
-  font-weight: bold;
-  background-color: #006097;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-#redsoc-topo{
-  color: #fff;
-  font-weight: bold;
-  background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-#redsoc{
-  padding: 10px;
-}*/
 
 /*------- # Hero Section ---------------
 
@@ -676,7 +709,7 @@ section {
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
-  padding: 15px 40px;
+  padding: 12px 40px;
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
@@ -686,7 +719,7 @@ section {
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 .hero .btn-get-started i {
@@ -703,6 +736,10 @@ section {
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+  }
+
+  .hero .btn-get-started {
+    padding: 12px 40px;
   }
 }
 
@@ -2303,8 +2340,10 @@ section {
 }
 .footer .footer-top .footer-info .logo img {
   max-height: 200px;
-  margin-right: 6px;
+  margin-right: 6px; 
+
 }
+
 .footer .footer-top .footer-info .logo span {
   font-size: 30px;
   font-weight: 700;
@@ -2388,45 +2427,6 @@ section {
   color: #012970;
 }
 
-/*----------------SLIDES----------
-
-.container-slide{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slider {
-  margin: 0 auto;
-  width: 400px;
-  height: 400px;
- overflow: hidden;
-}
-
-.slides{  
-  width: 400%;
-  height: 400px;
-  display: flex;  
-}
-
-.slides input {
-  display: none;
-}
-
-.slide {
-  width: 25%;
-  position: relative;
-  transition: 2s;  
-  }
-
-.slide img {
-  width: 400px;
-}
-*/
 /*----- MANUAL -----*/
 
 .manual-navigator {

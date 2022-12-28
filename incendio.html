@@ -17,36 +17,62 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<!-- CSS Files -->
+<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+ <!-- Whatsapp CSS -->
+ <link rel="stylesheet" href="assets/css/whatsapp.css">
+
+ <!--MyBiz CSS -->
+ <link rel="stylesheet" href="assets/css/mybiz.css">
+
+ <!-- Main CSS File -->
+ <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
+ <!-- ======= Top Bar ======= -->
+<section id="topbar" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-geo-alt d-flex align-items-center"><span>Eusébio de Queiroz 1720 Eusébio-CE</span></i>
+      <i class="bi bi-telephone-fill d-flex align-items-center ms-4"><span id="telefone-top">85 4009.9099</span></i>
+    </div>
+  </div>
+</section>
   <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img  src="assets/img/logo-SOLUCIONE.png" alt="solucioneaqui" >      
-      </a>
+  <header id="header" class="fixed-top d-flex align-items-center">    
+    
+    <div class="container d-flex align-items-center justify-content-between">
 
+      <div class="logo">
+      <!--  <h1><a href="index.html">My<span>Biz</span></a></h1>
+       Uncomment below if you prefer to use an image logo -->
+         <a href="index.html"><img src="assets/img/logo-SOLUCIONE.png" alt="solucioneaqui" class="img-fluid"></a>
+      </div>
+
+      <!-- REDES SOCIAIS -->
+      <div class="header-social-links d-flex align-items-center">        
+        <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="twitter"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/solucioneaqui/" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+      <!--FIM REDES SOCIAIS-->
+
+      <!-- Navbar -->
       <nav id="navbar" class="navbar">
-        <ul>
-          
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          
-          <li><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
-
-          <li class="dropdown"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
-            <ul>              
+        <ul>          
+          <li id="nav-link"><a class="nav-link scrollto active" href="#hero">Home</a></li>          
+          <li id="nav-link"><a class="nav-link scrollto" href="quemsomos.html">Quem somos</a></li>
+          <li class="dropdown" id="nav-link"><a href="produtos.html"><span>Produtos</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
               <li><a href="agricola.html">Agricolas</a></li>
               <li><a href="casa.html">Casa</a></li>
               <li><a href="energiasolar.html">Energia Solar</a></li>
@@ -59,20 +85,13 @@
               <li><a href="piscinas.html">Piscinas</a></li>
             </ul>
           </li>
-          <li><a href="faleconosco.html">Fale Conosco</a></li>
-          <!-- <li><a href="#">Blog</a></li> -->
-          
-          <!-- REDES SOCIAIS -->
-          <ul class="social-links mt-6">
-            <a href="https://api.whatsapp.com/send/?phone=5585994128131&text&type=phone_number&app_absent=0" class="whatssapp" target="_blank" ><i class="bi bi-whatsapp" style="font-size:25px"></i></a>              
-            <a href="https://www.facebook.com/sigasolucioneaqui" class="facebook" target="_blank"><i class="bi bi-facebook" style="font-size:25px"></i></a> 
-            <a href="https://www.instagram.com/solucioneaqui/" class="instagram" target="_blank"><i class="bi bi-instagram" style="font-size:25px"></i></a>   
-          </ul> 
-          <!-- FIM REDES SOCIAIS -->                    
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+          <li id="nav-link"><a href="faleconosco.html">Fale Conosco</a></li>
+            </ul>
+          </li>
+            </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- Fim Navbar -->
     </div>
   </header><!-- End Header -->
 
@@ -87,12 +106,9 @@
           </h1>      
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-            <!--
-              <span id="text-button">A solucione está aqui!</span>
-              <i class="bi bi-arrow-right"></i>
-            -->
-              </a>
+              <!--
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">A solução que você procura está aqui !</a> 
+            -->           
             </div>
           </div>
         </div>
@@ -101,6 +117,7 @@
           <!-- <img src="assets/img/painel_solar_frente.png" class="img-fluid" alt="">  -->
         </div>
     </div>
+  </div>
 
   </section><!-- End Hero -->
 
