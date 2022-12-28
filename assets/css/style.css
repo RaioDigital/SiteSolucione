@@ -160,10 +160,6 @@ section {
   color: #fff;
 }
 
-#telefone-top{
- 
-}
-
 #topbar .contact-info i a {
   line-height: 0;
   transition: 0.3s;
@@ -2339,10 +2335,11 @@ section {
   margin-bottom: 15px;
 }
 .footer .footer-top .footer-info .logo img {
-  max-height: 200px;
-  margin-right: 6px; 
-
-}
+  display: block;
+  max-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}/**/
 
 .footer .footer-top .footer-info .logo span {
   font-size: 30px;
@@ -2361,16 +2358,21 @@ section {
 
 .footer .footer-top .social-links a {
   font-size: 20px;
-  padding-left: 15%; /*incluso*/
-  display: inline-block;
+  padding: 5%; /*incluso*/
+  display: inline-block;  
   color: #006097;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
+  text-align: center;
 }
 
 .footer .footer-top .social-links a:hover {
   color: #012970;
+}
+
+.footer .footer-top .social-links{
+  text-align: center;
 }
 
 .footer .footer-top h4 {
