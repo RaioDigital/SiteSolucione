@@ -1,5 +1,5 @@
 var feed = new Instafeed({
-    accessToken: 'IGQVJWUmxTX3F3QmZAEREh4RHBVdXc2UVZATN1RvSTdmUHdXMHBrTlY4UU5BUlduekZAUV2wyTDZAwb1ZA0MWlvVkt1YWtjNmxpRU9JSjVOUDNRdkZA2dFAxRE1fa2xycjBaUEdhNlltdTRXNzBzc3dCcEd2QQZDZD',
+    accessToken: '#',
     limit: 10,
     template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}"/></a></div>',
 
