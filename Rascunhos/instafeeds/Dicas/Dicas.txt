@@ -1,3 +1,0 @@
-Pesquisar no Site Instafeed
-
-Link: instafeed.js
