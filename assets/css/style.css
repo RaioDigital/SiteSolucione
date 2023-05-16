@@ -1622,8 +1622,10 @@ section {
   color: rgba(1, 41, 112, 0.8);
 }
 
+/*Tamanho e Cor do icone whatsapp consultor*/
 .team .member .social i {
-  font-size: 18px;
+  font-size: 40px;
+  color: #012970;
 }
 
 .team .member .member-info {
@@ -1660,6 +1662,8 @@ section {
   right: 8px;
   opacity: 1;
 }
+
+
 
 /*--------------------------------------------------------------
 # Clients
